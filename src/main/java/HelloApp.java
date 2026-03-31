@@ -12,7 +12,6 @@ public class HelloApp {
                 names.append(name).append(", ");
             }
 
-            // remove trailing comma and space
             String result = names.substring(0, names.length() - 2);
 
             System.out.println("Hello, " + result + "!");
